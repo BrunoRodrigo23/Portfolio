@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(99, 152, 187);
+    font-family: Arial;
+    font-weight: 750;
+}
+
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    font-size: 24px;
+}
+
+
+.listaDeNavegacao{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
