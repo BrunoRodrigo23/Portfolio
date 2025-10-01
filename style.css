@@ -1,5 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
-    background-image: url(imagens/pexels-umkreisel-app-956981.jpg);
+    background-color: rgb(44, 44, 44);
     background-size: cover;
     background-position: center;
     font-family: Arial;
@@ -7,25 +12,49 @@
     color: rgb(255, 255, 255);
 }
 
-.navegacao{
+.navegacao {
     display: flex;
     justify-content: space-between;
 }
 
+.navegacao a {
+    text-decoration: none;
+}
+
+.topo {
+    padding: 8px 15px 20px 15px;
+}
+
 .logo{
+    background-color: rgba(2, 36, 114, 0.527);
     font-size: 50px;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 15px;
     cursor: pointer;
+    color: white;
+    width: max-content;
+    overflow: hidden;
+}
+.blog{
+    background-color: rgba(2, 36, 114, 0.527);
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    width: max-content;
+    overflow: hidden;
 }
 
 .listaDeNavegacao{
-    display: flex;
-    gap: 20px;
+    background-color: rgba(2, 36, 114, 0.527);
     font-size: 50px;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 15px;
     cursor: pointer;
+    color: white;
+    width: max-content;
+    overflow: hidden;
 }
 
 .Estudante{
