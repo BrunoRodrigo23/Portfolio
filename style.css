@@ -1,11 +1,10 @@
 .container{
-    background-color: rgb(40, 125, 131);
+    background-image: url(imagens/pexels-umkreisel-app-956981.jpg);
+    background-size: cover;
+    background-position: center;
     font-family: Arial;
     font-weight: 750;
-}
-
-.paiDoRodrigo{
-    font-size: ;
+    color: rgb(255, 255, 255);
 }
 
 .navegacao{
@@ -13,21 +12,17 @@
     justify-content: space-between;
 }
 
-
 .logo{
     font-size: 50px;
-    background-color: rgb(77, 76, 76);
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
 }
 
-
 .listaDeNavegacao{
     display: flex;
     gap: 20px;
     font-size: 50px;
-    background-color: rgb(77, 76, 76);
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
@@ -46,11 +41,4 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
-
-.paiDoEstudante{
-    display: flex;
-    justify-content: flex-start;
-    gap: 450px;
-    font-size: 25px;
 }
