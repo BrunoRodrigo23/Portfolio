@@ -1,5 +1,5 @@
-body{
-    background-color: #f5f5f5;
+body {
+    background-color: #ffffff;
     background-size: cover;
     background-position: center;
     max-width: 1200;
@@ -21,42 +21,17 @@ body{
 .topo {
     font-size: 30px;
     padding: 8px 15px 20px 15px;
-    background-color: rgb(138, 222, 228);
+    background-color: rgb(193, 228, 138);
 }
 
-
-.logo{
+.logo {
     color: black;
     cursor: pointer;
     width: max-content;
     overflow: hidden;
 }
 
-.logo:hover{
-    color: #ffffff;
-}
-
-.blog{
-    color: black;
-    border-radius: 15px;
-    cursor: pointer;
-    width: max-content;
-    overflow: hidden;
-}
-
-.blog:hover{
-    color: #ffffff;
-}
-
-.listaDeNavegacao{
-    color: black;
-    border-radius: 15px;
-    cursor: pointer;
-    width: max-content;
-    overflow: hidden;
-}
-
-.listaDeNavegacao:hover{
+.logo:hover {
     color: #ffffff;
 }
 
@@ -67,8 +42,39 @@ body{
 }
 
 .intru {
+    margin: 25px;
     display: flex;
-    justify-content: center;
-    padding: 5px 300px 5px 300px;
+    padding: 10px 10px;
     text-align: center;
+    background-color: rgb(193, 228, 138);
+    width: 350px;
+}
+
+.postit {
+    width: 250px;
+    height: 250px;
+    background: rgb(193, 228, 138);
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(34, 34, 34, 0.3);
+    transform: rotate(-2deg);
+    position: relative;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.postit::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 0 0 40px 40px;
+    border-style: solid;
+    border-color: transparent transparent rgba(169, 199, 121, 0.486) transparent;
+}
+
+.mural {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
