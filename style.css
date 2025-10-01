@@ -1,15 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
 .container{
-    background-color: #333333;
+    background-color: #f5f5f5;
     background-size: cover;
     background-position: center;
-    font-family: Arial;
     font-weight: 750;
-    color: #FFD700;
 }
 
 .navegacao {
@@ -22,47 +21,45 @@ body{
 }
 
 .topo {
+    font-size: 30px;
     padding: 8px 15px 20px 15px;
-    background-color: #0a5979;
+    background-color: rgb(138, 222, 228);
 }
 
 
 .logo{
-    font-size: 25px;
+    color: black;
     cursor: pointer;
-    color: #FFD700;
     width: max-content;
     overflow: hidden;
 }
 
 .logo:hover{
-    color: #faeda6;
+    color: #ffffff;
 }
 
 .blog{
-    font-size: 25px;
+    color: black;
     border-radius: 15px;
     cursor: pointer;
-    color: #FFD700;
     width: max-content;
     overflow: hidden;
 }
 
 .blog:hover{
-    color: #faeda6;
+    color: #ffffff;
 }
 
 .listaDeNavegacao{
-    font-size: 25px;
+    color: black;
     border-radius: 15px;
     cursor: pointer;
-    color: #FFD700;
     width: max-content;
     overflow: hidden;
 }
 
 .listaDeNavegacao:hover{
-    color: #faeda6;
+    color: #ffffff;
 }
 
 .Estudante{
